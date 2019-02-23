@@ -1,0 +1,9 @@
+---
+swagger: "2.0"
+info:
+  title: "Currency Converter API"
+  description: "Convert an amount to another currency"
+consumes:
+  - application/json
+produces:
+  - application/json

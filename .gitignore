@@ -1,0 +1,13 @@
+logs
+libexec
+target
+bin
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/conf/local.conf
+/RUNNING_PID
+*.iml
+

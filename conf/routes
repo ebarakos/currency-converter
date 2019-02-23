@@ -1,0 +1,23 @@
+
+###
+#  summary: Convert an amount from a currency to a different one
+#  parameters:
+#    - name: body
+#      in: body
+#      schema:
+#        $ref: '#/definitions/models.Input'
+#  responses:
+#    200:
+#      description: Conversion successful
+#    400:
+#      description: The request was invalid
+#    500:
+#      description: Server error
+###
+POST  /convert                      controllers.ConversionController.convert()
+
+### NoDocs ###
+GET   /docs/swagger-ui/*file        controllers.Assets.at(path:String="/public/lib/swagger-ui", file:String)
+
+### NoDocs ###
+GET   /assets/*file                 controllers.Assets.versioned(path="/public", file: Asset)
